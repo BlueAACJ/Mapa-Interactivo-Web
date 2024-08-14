@@ -1,0 +1,103 @@
+{% extends "layout.html" %}
+{% block title %} {{dep}} {% endblock %}
+{% block main %}
+<!-- Pagina del departamento -->
+<div class="row">
+    <div class="col-12">
+        <div class="d-flex align-items-center" data-aos="zoom-in-up">
+            <div>
+                <!-- Boton para regresar al mapa del apartado -->
+                <a class="btn" href="/historia"><i class="fa fa-home"></i> Home</a>
+            </div>
+            <div >
+                <!-- Nombre del departamento -->
+                <h1 style="padding-left: 0%;">{{dep | safe}}</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" data-aos="flip-down">
+    <div class="col-8" >
+        <p>{{parrafo1 | safe}} </p>
+    </div>
+    <div class="col-4">
+      <!-- Carrousel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="{{imagen1}}" class="d-block w-100"
+                      alt="Imagen no disponible" width="200"
+                      height="200">
+              </div>
+              <div class="carousel-item">
+                  <img src="{{imagen2}}" class="d-block w-100"
+                      alt="Imagen no disponible" width="200"
+                      height="200">
+              </div>
+              <div class="carousel-item">
+                  <img src="{{imagen3}}" class="d-block w-100"
+                      alt="Imagen no disponible" width="200"
+                      height="200">
+              </div>
+              <div class="carousel-item">
+                  <img src="{{imagen4}}" class="d-block w-100"
+                      alt="Imagen no disponible" width="200"
+                      height="200">
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="row" data-aos="flip-down">
+  <div class="col-4">
+      <!-- Carrousel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="4" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+          </ol>
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="{{imagen4}}" class="d-block w-100"
+                      alt=".Imagen no disponible" width="200"
+                      height="200">
+              </div>
+              <div class="carousel-item">
+                  <img src="{{imagen3}}" class="d-block w-100"
+                      alt=".Imagen no disponible" width="200"
+                      height="200">
+              </div>
+              <div class="carousel-item">
+                  <img src="{{imagen2}}" class="d-block w-100"
+                      alt="Imagen no disponible" width="200"
+                      height="200">
+              </div>
+              <div class="carousel-item">
+                  <img src="{{imagen1}}" class="d-block w-100"
+                      alt=".Imagen no disponible" width="200"
+                      height="200">
+              </div>
+          </div>
+      </div>
+  </div>
+    <div class="col-8">
+        <p>{{parrafo2| safe}}</p>
+    </div>
+</div>
+<div class="d-flex bd-highlight mb-3" id="botones" data-aos="flip-down">
+    <div class="p-2 bd-highlight">
+        <a class="btn btn-info" class="btn" href="/departamento_geografia/{{dep}}"> Geografia </a>
+    </div>
+    <div class="ml-auto p-2 bd-highlight">
+        <a class="btn btn-success" class="btn" href="/departamento_cultura/{{dep}}"> Cultura </a>
+    </div>
+</div>
+{% endblock %}

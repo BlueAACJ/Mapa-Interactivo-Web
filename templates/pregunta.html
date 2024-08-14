@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block title %} Preguntados {% endblock %}
+{% block main %}
+<div id="tablero-de-juego">
+     <div id="encabezado">
+          <a id="ayuda" class="btn btn-info" onclick="ayuda()">
+               Ayuda
+          </a>
+          <br>
+          <span id="pregunta">Aquí va la pregunta</span>
+          <br>
+          <img id="imagen" src="" style="width: 90%;height: 200px;object-fit: contain;">
+     </div>
+
+     <div class="opcion" id="opcion-1" onclick="seleccionarOpción(0)">
+          Opción 1
+     </div>
+     <div class="opcion" id="opcion-2" onclick="seleccionarOpción(1)">
+          Opción 2
+     </div>
+     <div class="opcion" id="opcion-3" onclick="seleccionarOpción(2)">
+          Opción 3
+     </div>
+     <div class="opcion" id="opcion-4" onclick="seleccionarOpción(3)">
+          Opción 4
+     </div>
+
+</div>
+
+<!-- Conexion Javascripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/static/scripts.js"></script>
+{% endblock %}

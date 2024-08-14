@@ -1,0 +1,153 @@
+[
+    {
+        "pregunta": "¿Dónde queda ubicado el volcán San Cristóbal, el volcán más grande de Nicaragua?",
+        "respuesta": "Chinandega",
+        "distractores": ["Matagalpa", "Tipitapa", "Boaco"]
+    },
+    {
+        "pregunta": "Seleccione un patrimonio de la humanidad ",
+        "respuesta": "Catedral de León",
+        "distractores": ["Puerto Salvador", "La boquita", "El trapiche"]
+    },
+    {
+        "pregunta": "¿Dónde queda ubicado el teatro nacional Rubén Darío?",
+        "respuesta": "Managua",
+        "distractores": ["Granada", "León", "Matagalpa"]
+    },
+    {
+        "pregunta": "¿Cómo surgió Masaya?",
+        "respuesta": "Como un pueblo de tránsito",
+        "distractores": ["Como un lugar de guerras", "Ya existía", "Como cementerio de esclavos"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el dulce tradicional de Chinandega?",
+        "respuesta": "Toncua",
+        "distractores": ["Cajetas de leche", "Huevos chimbos", "Cajeta de coco"]
+    },
+    {
+        "pregunta": "¿Para qué es la reserva natural el Chococente?",
+        "respuesta": "Anidación de tortugas marinas ",
+        "distractores": ["Reserva de aves", "Crianza de canguros", "Protección de tiburones de agua dulce"]
+    },
+    {
+        "pregunta": "¿Dónde nació Anastasio Somoza García?",
+        "respuesta": "Carazo",
+        "distractores": ["Managua", "Costa Rica", "León"]
+    },
+    {
+        "pregunta": "¿Qué representa el güegüense?",
+        "respuesta": "Protesta contra la colonia ",
+        "distractores": ["El mestizaje", "Protesta contra los filibusteros", "No tiene una representación"]
+    },
+    {
+        "pregunta": "Seleccione el total de islas que conforman las isletas de Granada",
+        "respuesta": "365",
+        "distractores": ["180", "400", "345"]
+
+    },
+    {
+        "pregunta": "¿Cómo se le conoce a Masaya?",
+        "respuesta": "Cuna del folklore nicaragüense",
+        "distractores": ["Cuidad de leyendas", "Capital de Historia", "La gran Sultana"]
+    },
+    {
+        "pregunta": "¿En qué departamento se celebra el festival internacional de poesía?",
+        "respuesta": "Granada",
+        "distractores": ["León", "Managua", "Rivas"]
+    },
+    {
+        "pregunta": "¿Cuales fueron las primeras tierras explotadas por los españoles?",
+        "respuesta": "Rivas",
+        "distractores": ["Boaco", "Chinandega", "Chontales"]
+    },
+    {
+        "pregunta": "¿En qué año se separó Boaco de Chontales?",
+        "respuesta": "1935",
+        "distractores": ["1823", "1910", "1998"]
+    },
+    {
+        "pregunta": "¿Qué representa el baile del Zompopo?",
+        "respuesta": "Esfuerzos para terminar con una plaga",
+        "distractores": ["Culto a los Zompopos", "Nada","Para rendir culto a los dioses"]
+    },
+    {
+        "pregunta": "¿A quién se debe la fiestas patronales en Managua?",
+        "respuesta": "Santo Domingo",
+        "distractores": ["San Antonio", "Virgen Santa Rita", "Virgen de la Asunción"]
+    },
+    {
+        "pregunta": "¿Donde queda ubicada la isla Corn Island?",
+        "respuesta": "RAAS",
+        "distractores": ["RAAN", "Rivas", "Las Malvinas"]
+    },
+    {
+        "pregunta": "¿En qué año se dividieron las Regiones Autónomas?",
+        "respuesta": "1987",
+        "distractores": ["1834", "1905", "1989"]
+    },
+    {
+        "pregunta": "¿Cómo se le conoce a Boaco?",
+        "respuesta": "La ciudad de dos pisos",
+        "distractores": ["Cuidad entre lagos", "La cuidad de las brumas", "Perla del Septentrión"]
+    },
+    {
+        "pregunta": "¿Dónde queda ubicada la casa natal de Rubén Darío?",
+        "respuesta": "Metapa",
+        "distractores": ["Granada", "Carazo", "Managua"]
+    },
+    {
+        "pregunta": "¿A qué personaje interpreta Otto de la Rocha?",
+        "respuesta": "Aniceto",
+        "distractores": ["EL chapulín", "Agapito", "El viejo del sombrerón"]
+    },
+    {
+        "pregunta": "¿Dónde nació Salomón Ibarra Mayorga?",
+        "respuesta": "Chinandega",
+        "distractores": ["Carazo", "Jinotega", "Madriz"]
+    },
+    {
+        "pregunta": "¿Qué deporte se practica en cerro negro?",
+        "respuesta": "Volcano boarding",
+        "distractores": ["Escalada", "Ciclismo", "Senderismo"]
+    },
+    {
+        "pregunta": "¿De qué departamento es tradicional el desfile de los agüizotes?",
+        "respuesta": "Masaya",
+        "distractores": ["Managua", "Rivas", "Matagalpa"]
+    },
+    {
+        "pregunta": "¿Qué significa Chinandega?",
+        "respuesta": "Lugar de enramadas",
+        "distractores": ["Cuidad de calor", "Joya del Septentrión", "Ciudad de las brumas"]
+    },
+    {
+        "pregunta": "¿En qué año se fundó la ciudad de León?",
+        "respuesta": "1524",
+        "distractores": ["1534", "1605", "1769"]
+    },
+    {
+        "pregunta": "¿En que año se dió el huracán mitch?",
+        "respuesta": "1998",
+        "distractores": ["2000", "1898", "1900"]
+    },
+    {
+        "pregunta": "¿Dónde nació Sandino?",
+        "respuesta": "Niquinomo",
+        "distractores": ["Masatepe", "Jinotepe", "El viejo"]
+    },
+    {
+        "pregunta": "El lago Cocibolca alberga :",
+        "respuesta": "Tiburones toros",
+        "distractores": ["Tiburones blancos", "Tiburón martillo", "Megalodón"]
+    },
+    {
+        "pregunta": "En Río San Juan la gastronomía está relacionada con los productos extraídos de:",
+        "respuesta": "Río y lago",
+        "distractores": ["La siembra", "La recolección", "la caza de venados"]
+    },
+    {
+        "pregunta": "¿Cuántas islas conforman el archipiélago de El Nancital?",
+        "respuesta": "27",
+        "distractores": ["40", "37", "45"]
+    }
+]
