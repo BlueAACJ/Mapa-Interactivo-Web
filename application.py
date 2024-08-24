@@ -1,4 +1,4 @@
-# Alejandro Antonio Castillo Jacamo 2022 Project-4
+# 2022 Project-4
 from flask import *
 from funciones import *
 from datetime import *
@@ -228,7 +228,17 @@ def puntuaciones():
     columns = [column[0] for column in db.description]
     puntuaciones = [dict(zip(columns, row)) for row in rows]
 
-    puntuaciones = sorted(puntuaciones, key=lambda x: int(x['puntuacion']), reverse=True)
+    puntuaciones = [
+    {**p, 'puntuacion': 'No hay registro'} if p['puntuacion'] is None else p 
+    for p in puntuaciones
+    ]
+
+    puntuaciones = sorted(
+    puntuaciones, 
+    key=lambda x: int(x['puntuacion']) if x['puntuacion'] != 'No hay registro' else float('-inf'), 
+    reverse=True
+    )
+
     # Cerrar la conexion de la BD
     db.close()
 
